@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<div class=main-container>
+    <div class="form-container">
+      <h2>Register Form</h2>
+        <form action="">
+            <div class ="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"required>
+            </div>
+                <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="Submit">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm-Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                <div class="radio-group">
+    <label>
+        <input type="radio" name="gender" value="Male"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="Female"> Female
+    </label>
+    <label>
+        <input type="radio" name="gender" value="Other"> Other
+    </label>
+</div>
+                </div>
+                <div class="form-group">
+                    <button type="submit"><i class="fa-solid fa-user-plus"></i>Register</button>
+                    <label for="county">County</label>
+                        <select name="County" id="County">
+                            <option value="Nairobi" Selected Disabled>Select Your County </option>
+                            <option value="Nairobi">Nairobi</option>
+                            <option value="Nakuru">Nakuru</option>
+                            <option value="Mombasa">Mombasa</option>
+                            <option value="Kisumu">Kisumu</option>
+                        </select>
+                </div>
+               </form>
+
+</div>
+    <div class="table-container">
+        <h2>Table with Users Registered</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>County</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Kiplangat Ruto</td>
+                <td>kiplangatruto@gmail.com</td>
+                <td>Male</td>
+                <td>Nairobi</td>
+            </tr>
+            </tr>
+            <td>Tires Jimmy</td>
+                <td>jimmyt@gmail.com</td>
+                <td>Male</td>
+                <td>Houston</td>
+            </tr>
+            <td>Tonny Kim</td>
+                <td>ttkim@gmail.com</td>
+                <td>Male</td>
+                <td>Alaska</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
+<label for="Email">Email:</label>
